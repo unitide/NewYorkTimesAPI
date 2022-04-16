@@ -8,10 +8,10 @@
 import UIKit
 
 class ArticleOverviewTableViewCell: UITableViewCell {
-
     @IBOutlet  weak var headline: UILabel!
     @IBOutlet  weak var abstract: UILabel!
     @IBOutlet  weak var webURL: UILabel!
+    @IBOutlet weak var publicationDate: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,5 +23,4 @@ class ArticleOverviewTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }

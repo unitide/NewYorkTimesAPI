@@ -16,6 +16,7 @@ class ArchieveViewController: UIViewController {
     @IBOutlet weak var yearOfArticle: UITextField!
     @IBOutlet weak var monthOfArticle: UITextField!
     @IBOutlet weak var articleOviewTableview: UITableView!
+    @IBOutlet weak var fetchDataProgressIndication: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +35,8 @@ class ArchieveViewController: UIViewController {
         viewModel.$archievedDocument
             .receive(on: RunLoop.main)
             .sink { _ in
+                self.fetchDataProgressIndication.stopAnimating()
+                self.articleOviewTableview.isHidden = false
                 self.articleOviewTableview.reloadData()
             }
             .store(in: &subscribers)
@@ -45,6 +48,8 @@ class ArchieveViewController: UIViewController {
         guard let year = Int(yearInput), let month = Int(monthInput) else {
             return
         }
+        articleOviewTableview.isHidden = true
+        fetchDataProgressIndication.startAnimating()
         viewModel.getArchievedDocument(year: year, month: month)
     }
     
@@ -60,7 +65,12 @@ class ArchieveViewController: UIViewController {
 }
 
 extension ArchieveViewController: UITableViewDelegate {
-    
+//    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//        if indexPath.row == 2 {
+//            return 100
+//        }
+//        return 50
+//    }
 }
 
 extension ArchieveViewController: UITableViewDataSource {
@@ -77,7 +87,7 @@ extension ArchieveViewController: UITableViewDataSource {
         cell.headline?.text = viewModel.archievedDocument[indexPath.row].headline.main
         cell.abstract?.text = "Abstract:  " + viewModel.archievedDocument[indexPath.row].abstract
         cell.webURL?.text = viewModel.archievedDocument[indexPath.row].webURL
-        
+        cell.publicationDate?.text = "Publication Date: " + viewModel.archievedDocument[indexPath.row].pubDate.prefix(10)
         return cell
     }
 }

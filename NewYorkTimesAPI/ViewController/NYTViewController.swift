@@ -40,12 +40,24 @@ extension NYTViewController: UITableViewDelegate {
         case 0:
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let archiveVC = storyboard.instantiateViewController(withIdentifier: "archieveViewController") as UIViewController
-            if let navi = self.navigationController {
-                navi.pushViewController(archiveVC, animated: true)
-            }
+            addViewContronllerToNavigation(viewController: archiveVC)
+            
+        case 1:
+            let searchViewController = SearchArchieveViewController()
+            addViewContronllerToNavigation(viewController: searchViewController)
+            
+        case 2:
+            let bookViewController = BooksViewController()
+            addViewContronllerToNavigation(viewController: bookViewController)
             
         default:
             return
+        }
+    }
+    
+    private func addViewContronllerToNavigation(viewController: UIViewController){
+        if let navi = self.navigationController {
+            navi.pushViewController(viewController, animated: true)
         }
     }
 }

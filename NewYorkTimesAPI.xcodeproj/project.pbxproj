@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D3A0BB8280B5E0700A48D18 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A0BB7280B5E0700A48D18 /* BooksViewController.swift */; };
+		7D3A0BBA280B602500A48D18 /* SearchArchieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A0BB9280B602500A48D18 /* SearchArchieveViewController.swift */; };
+		7D3A0BBC280B66FF00A48D18 /* BookQueryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A0BBB280B66FF00A48D18 /* BookQueryViewModel.swift */; };
+		7D3A0BBF280B72A200A48D18 /* GetBestSellersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A0BBE280B72A200A48D18 /* GetBestSellersListViewController.swift */; };
+		7D3A0BC1280B72D900A48D18 /* GetBestSellersListByDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A0BC0280B72D900A48D18 /* GetBestSellersListByDateViewController.swift */; };
+		7D3A0BC3280B72F900A48D18 /* GetBestSellersListHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A0BC2280B72F900A48D18 /* GetBestSellersListHistoryViewController.swift */; };
+		7D3A0BC5280B731600A48D18 /* GetAllBestSellersListForSpecifiedDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A0BC4280B731600A48D18 /* GetAllBestSellersListForSpecifiedDateViewController.swift */; };
+		7D3A0BC7280B732F00A48D18 /* GetBestSellersListNamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A0BC6280B732F00A48D18 /* GetBestSellersListNamesViewController.swift */; };
+		7D3A0BC9280B734800A48D18 /* GetTopFiveBestSellersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A0BC8280B734800A48D18 /* GetTopFiveBestSellersListViewController.swift */; };
+		7D3A0BCB280B735E00A48D18 /* GetTopBookViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3A0BCA280B735E00A48D18 /* GetTopBookViewsViewController.swift */; };
 		7D94FA8B280766FF001BE710 /* ArchieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94FA8A280766FF001BE710 /* ArchieveViewController.swift */; };
 		7D94FA8D28076CF9001BE710 /* NetworkURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94FA8C28076CF9001BE710 /* NetworkURLs.swift */; };
 		7D94FA8F280770DD001BE710 /* ArchieveAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94FA8E280770DD001BE710 /* ArchieveAPI.swift */; };
@@ -44,6 +54,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D3A0BB7280B5E0700A48D18 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		7D3A0BB9280B602500A48D18 /* SearchArchieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArchieveViewController.swift; sourceTree = "<group>"; };
+		7D3A0BBB280B66FF00A48D18 /* BookQueryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookQueryViewModel.swift; sourceTree = "<group>"; };
+		7D3A0BBE280B72A200A48D18 /* GetBestSellersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBestSellersListViewController.swift; sourceTree = "<group>"; };
+		7D3A0BC0280B72D900A48D18 /* GetBestSellersListByDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBestSellersListByDateViewController.swift; sourceTree = "<group>"; };
+		7D3A0BC2280B72F900A48D18 /* GetBestSellersListHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBestSellersListHistoryViewController.swift; sourceTree = "<group>"; };
+		7D3A0BC4280B731600A48D18 /* GetAllBestSellersListForSpecifiedDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllBestSellersListForSpecifiedDateViewController.swift; sourceTree = "<group>"; };
+		7D3A0BC6280B732F00A48D18 /* GetBestSellersListNamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBestSellersListNamesViewController.swift; sourceTree = "<group>"; };
+		7D3A0BC8280B734800A48D18 /* GetTopFiveBestSellersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTopFiveBestSellersListViewController.swift; sourceTree = "<group>"; };
+		7D3A0BCA280B735E00A48D18 /* GetTopBookViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTopBookViewsViewController.swift; sourceTree = "<group>"; };
 		7D94FA8A280766FF001BE710 /* ArchieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchieveViewController.swift; sourceTree = "<group>"; };
 		7D94FA8C28076CF9001BE710 /* NetworkURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkURLs.swift; sourceTree = "<group>"; };
 		7D94FA8E280770DD001BE710 /* ArchieveAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchieveAPI.swift; sourceTree = "<group>"; };
@@ -92,6 +112,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D3A0BBD280B725A00A48D18 /* BookViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7D3A0BB7280B5E0700A48D18 /* BooksViewController.swift */,
+				7D3A0BCA280B735E00A48D18 /* GetTopBookViewsViewController.swift */,
+				7D3A0BC8280B734800A48D18 /* GetTopFiveBestSellersListViewController.swift */,
+				7D3A0BC6280B732F00A48D18 /* GetBestSellersListNamesViewController.swift */,
+				7D3A0BC4280B731600A48D18 /* GetAllBestSellersListForSpecifiedDateViewController.swift */,
+				7D3A0BC2280B72F900A48D18 /* GetBestSellersListHistoryViewController.swift */,
+				7D3A0BC0280B72D900A48D18 /* GetBestSellersListByDateViewController.swift */,
+				7D3A0BBE280B72A200A48D18 /* GetBestSellersListViewController.swift */,
+			);
+			path = BookViewController;
+			sourceTree = "<group>";
+		};
 		7DC066BE280749220026FCFD = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				7DC0670528074D6E0026FCFD /* ViewModel.swift */,
+				7D3A0BBB280B66FF00A48D18 /* BookQueryViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -185,7 +221,9 @@
 		7DC0670428074AC40026FCFD /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				7D3A0BBD280B725A00A48D18 /* BookViewController */,
 				7DC0670728074F0C0026FCFD /* NYTViewController.swift */,
+				7D3A0BB9280B602500A48D18 /* SearchArchieveViewController.swift */,
 				7D94FA8A280766FF001BE710 /* ArchieveViewController.swift */,
 			);
 			path = ViewController;
@@ -343,14 +381,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3A0BBA280B602500A48D18 /* SearchArchieveViewController.swift in Sources */,
 				7D94FA912807931D001BE710 /* NetworkManager.swift in Sources */,
 				7DC066CB280749220026FCFD /* AppDelegate.swift in Sources */,
+				7D3A0BCB280B735E00A48D18 /* GetTopBookViewsViewController.swift in Sources */,
+				7D3A0BC1280B72D900A48D18 /* GetBestSellersListByDateViewController.swift in Sources */,
+				7D3A0BC9280B734800A48D18 /* GetTopFiveBestSellersListViewController.swift in Sources */,
 				7DC066CD280749220026FCFD /* SceneDelegate.swift in Sources */,
 				7DC0670628074D6E0026FCFD /* ViewModel.swift in Sources */,
 				7D94FA8B280766FF001BE710 /* ArchieveViewController.swift in Sources */,
+				7D3A0BC3280B72F900A48D18 /* GetBestSellersListHistoryViewController.swift in Sources */,
+				7D3A0BBC280B66FF00A48D18 /* BookQueryViewModel.swift in Sources */,
+				7D3A0BB8280B5E0700A48D18 /* BooksViewController.swift in Sources */,
+				7D3A0BBF280B72A200A48D18 /* GetBestSellersListViewController.swift in Sources */,
 				7D94FA8D28076CF9001BE710 /* NetworkURLs.swift in Sources */,
 				7D94FA8F280770DD001BE710 /* ArchieveAPI.swift in Sources */,
+				7D3A0BC5280B731600A48D18 /* GetAllBestSellersListForSpecifiedDateViewController.swift in Sources */,
 				7DC0670828074F0C0026FCFD /* NYTViewController.swift in Sources */,
+				7D3A0BC7280B732F00A48D18 /* GetBestSellersListNamesViewController.swift in Sources */,
 				7DC066D5280749220026FCFD /* NewYorkTimesAPI.xcdatamodeld in Sources */,
 				7D94FA93280797F8001BE710 /* NetworkError.swift in Sources */,
 				7D94FA95280A20BC001BE710 /* ArticleOverviewTableViewCell.swift in Sources */,
